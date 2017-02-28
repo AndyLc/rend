@@ -200,7 +200,7 @@ div.nancy-html div.nancy-container div.intro {
   div.about-content {
     zoom: 0.5; }
   div.about-content input.email {
-    height: 55px;
+    height: 55px !important;
   }
   div.decoration {
     right: -350px !important;
