@@ -199,7 +199,9 @@ div.nancy-html div.nancy-container div.intro {
 @media (max-device-width: 736px) {
   div.about-content {
     zoom: 0.5; }
-
+  div.about-content input.email {
+    height: 55px;
+  }
   div.decoration {
     right: -350px !important;
     bottom: -350px !important;
