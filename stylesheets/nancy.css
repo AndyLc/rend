@@ -50,16 +50,16 @@ div.nancy-html div.about {
   background-color: #F5F5F5; }
   div.nancy-html div.about.hide {
     display: block;
-    animation: fancyExit ease-in-out 1s;
+    animation: fancyExit ease-in-out 0.5s;
     animation-fill-mode: forwards; }
   div.nancy-html div.about.expanded {
     display: block;
-    animation: fancyEntrance ease-in-out 1s;
+    animation: fancyEntrance ease-in-out 0.5s;
     animation-fill-mode: forwards;
     z-index: 99; }
     div.nancy-html div.about.expanded div.about-content {
       animation: fadeIn ease-in-out 1s;
-      animation-delay: 0.7s;
+      animation-delay: 0.4s;
       animation-fill-mode: forwards; }
   div.nancy-html div.about div.about-content {
     position: fixed;
@@ -119,7 +119,7 @@ div.nancy-html div.nancy-container div.intro {
     color: #455A64;
     z-index: 1; }
     div.nancy-html div.nancy-container div.intro div.intro-logo h2 {
-      height: 105px;
+      height: 58px;
       font-size: 140px;
       letter-spacing: 43px;
       font-family: pierSans;
@@ -197,6 +197,15 @@ div.nancy-html div.nancy-container div.intro {
     top: 0px; }
 
 @media (max-device-width: 736px) {
+  div.about-content {
+    zoom: 0.5; }
+
+  div.decoration {
+    right: -350px !important;
+    bottom: -350px !important;
+    width: 700px !important;
+    height: 700px !important; }
+
   div.intro-logo h2 {
     zoom: 0.5; }
   div.intro-logo h4 {
